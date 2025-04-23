@@ -1,16 +1,37 @@
-# README
+# 🧠 Gerenciador de Tarefas com Wails + Svelte
 
-## About
+Um gerenciador de tarefas simples, leve e multiplataforma, construído com [Wails](https://wails.io/) no backend (Go) e [Svelte](https://svelte.dev/) no frontend. Permite listar, pausar, retomar e encerrar processos do sistema com uma interface semelhante ao terminal.
 
-This is the official Wails Svelte template.
+---
 
-## Live Development
+## ✨ Funcionalidades
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+- 🔍 Lista todos os processos do sistema (PID, usuário, uso de CPU, tempo, comando e estado)
+- ⏸️ Pausar um processo
+- ▶️ Retomar um processo pausado
+- 🗑️ Finalizar um processo
+- 🔁 Atualização automática a cada 1s
 
-## Building
+---
 
-To build a redistributable, production mode package, use `wails build`.
+## 🛠️ Tecnologias Utilizadas
+
+- [Go (Golang)](https://golang.org/)
+- [Wails](https://wails.io/)
+- [Svelte](https://svelte.dev/)
+
+---
+
+## 🚀 Como executar
+
+### Pré-requisitos
+
+- [Go](https://golang.org/doc/install) >= 1.20
+- [Node.js](https://nodejs.org/) >= 16
+- [Wails CLI](https://wails.io/docs/gettingstarted/installation)
+
+### Clonando o projeto
+
+```bash
+cd gerenciador-go-wails
+wails dev
