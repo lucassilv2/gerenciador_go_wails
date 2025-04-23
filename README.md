@@ -33,5 +33,6 @@ Um gerenciador de tarefas simples, leve e multiplataforma, construído com [Wail
 ### Clonando o projeto
 
 ```bash
+git clone https://github.com/lucassilv2/gerenciador_go_wails.git
 cd gerenciador-go-wails
 wails dev
